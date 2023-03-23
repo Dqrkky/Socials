@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button_box a,
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+
+.button_box:hover a,
+a:hover {
+    color: rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+
+@media (hover: hover) {
+    body:not(:hover, :focus-within, :active) .box-main {
+        margin-bottom: 260%;
+        transition: 1500ms
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.section-main {
+    background: url("https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 600px;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transition: 1500ms;
+}
+
+.profile_image {
+    position: absolute;
+    top: 6%;
+    left: 34%;
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile_name {
+    position: absolute;
+    top: 35%;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.row-main {
+    position: absolute;
+    list-style-type: none;
+    display: grid;
+    grid-gap: 16px;
+    top: 50%;
+}
+
+.button_box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    cursor: grabbing;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+@media (hover: none) {
+    .button_box:not(:active) {
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 10);
+        transform: translateY(-5%);
+        cursor: grab;
+        transition: 0.3s;
+    }
+    .button_box:active {
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+}
+
+@media (hover: hover) {
+    .button_box:hover {
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 10);
+        transform: translateY(-5%);
+        cursor: grab;
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+    }
+    .button_box:active {
+        color: rgb(255, 255, 255);
+        transition: 0.3s;
+    }
+}
+
+.button_box:active {
+    box-shadow: none;
+    transform: translateY(0%);
+    cursor: grabbing;
+    transition: 0.3s;
+}
