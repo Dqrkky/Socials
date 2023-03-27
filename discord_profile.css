@@ -59,11 +59,36 @@ section {
 .profile_status_dnd_line {
     position: absolute;
     margin-top: 42%;
-    margin-left: 12%;
+    margin-left: 15%;
     width: 10px;
     height: 3px;
     background: rgb(50, 50, 50);
     border-radius: 20%;
+}
+
+.profile_status_idle_star {
+    position: absolute;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: rgb(50, 50, 50);
+    box-shadow: 3px 3px 0 1px #fff77e;
+    margin-top: -5%;
+    margin-left: -5%;
+}
+
+.profile_status_offline {
+    background: rgb(100, 100, 100);
+}
+
+.profile_status_offline_line {
+    position: absolute;
+    margin-top: 28%;
+    margin-left: 28%;
+    width: 8px;
+    height: 8px;
+    background: rgb(50, 50, 50);
+    border-radius: 100%;
 }
 
 .box-second {
