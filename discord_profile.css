@@ -29,7 +29,7 @@ section {
 
 .profile_image {
     position: absolute;
-    border: 5px rgb(50, 50, 50)  solid;
+    border: 5px rgb(50, 50, 50) solid;
     border-radius: 100%;
     width: 80px;
     height: 80px;
@@ -41,11 +41,29 @@ section {
     position: absolute;
     width: 15px;
     height: 15px;
-    background: rgb(6, 204, 23);
+    background: rgb(50, 50, 50);
     border: 5px rgb(50, 50, 50) solid;
     border-radius: 100%;
     margin-top: 17.5%;
     margin-left: 70px;
+}
+
+.profile_status_online {
+    background: rgb(6, 204, 23);
+}
+
+.profile_status_dnd {
+    background: rgb(233, 49, 49);
+}
+
+.profile_status_dnd_line {
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 12%;
+    width: 10px;
+    height: 3px;
+    background: rgb(50, 50, 50);
+    border-radius: 20%;
 }
 
 .box-second {
@@ -62,7 +80,7 @@ section {
     position: absolute;
     font-size: 16px;
     color: rgb(255, 255, 255);
-    margin-top: 4%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 
@@ -84,6 +102,6 @@ section {
     position: absolute;
     font-size: 14px;
     color: rgb(160, 160, 160);
-    margin-top: 26%;
+    margin-top: 29%;
     margin-left: 18%;
 }
