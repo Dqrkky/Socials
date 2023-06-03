@@ -59,7 +59,7 @@ section {
 .profile_status_dnd_line {
     position: absolute;
     margin-top: 46.6%;
-    margin-left: 18%;
+    margin-left: 18.4%;
     width: 10px;
     height: 3px;
     background: rgb(50, 50, 50);
@@ -73,8 +73,8 @@ section {
     height: 12px;
     background: rgb(50, 50, 50);
     box-shadow: 3px 3px 0 1px #fff77e;
-    margin-top: -5%;
-    margin-left: -5%;
+    margin-top: -6%;
+    margin-left: -6%;
 }
 
 .profile_status_offline {
@@ -83,8 +83,8 @@ section {
 
 .profile_status_offline_cyrcle {
     position: absolute;
-    margin-top: 26.7%;
-    margin-left: 26.7%;
+    margin-top: 26.8%;
+    margin-left: 26.8%;
     width: 8px;
     height: 8px;
     background: rgb(50, 50, 50);
